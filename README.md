@@ -8,7 +8,7 @@
   2) **Connectivity**: each bond has Manhattan distance = 1
 
 ## File
-- `week1_only_2d_polymer.py`
+- `Model_basis.py`
 
 ## Run
 ```bash
