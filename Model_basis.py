@@ -87,7 +87,7 @@ def main():
 
     poly = straight_chain(args.N)
 
-    print("WEEK 1 — 2D lattice polymer representation")
+    print("2D lattice polymer representation")
     print(poly.summary())
     print("Bonds (index pairs):", poly.bonds()[:10], "..." if poly.N > 11 else "")
     print("Validation: OK ")
