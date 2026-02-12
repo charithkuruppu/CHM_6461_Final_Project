@@ -12,5 +12,5 @@
 
 ## Run
 ```bash
-python week1_only_2d_polymer.py --N 20
+python Model_basis.py --N 20
 # CHM_6461_Final_Project
