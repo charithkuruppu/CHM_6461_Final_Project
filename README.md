@@ -1,4 +1,4 @@
-# Week 1 — 2D Lattice Polymer Representation (SAW/HP Project)
+# 2D Lattice Polymer Representation (SAW/HP Project)
 
 ## What this code does
 - Represents a polymer chain on a **2D square lattice** as a list of coordinates `(x, y)`.
