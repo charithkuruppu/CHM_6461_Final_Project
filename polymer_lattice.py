@@ -21,14 +21,14 @@ def validate_polymer(coords):
             raise ValueError(f"Broken bond at {i}->{i+1}: {coords[i]} to {coords[i+1]}")
 
 def main():
-    N = 8  
+    N = int(input("Enter the number of beads (N): ")) 
     coords = make_straight_chain(N)
     validate_polymer(coords)
 
     print("N =", N)
-    print("Coordinates (i, x, y):")
+    print("Coordinates")
     for i, (x, y) in enumerate(coords):
-        print(i, x, y)
+        print(f"Bead {i}: ({x}, {y})")
 
 if __name__ == "__main__":
     main()
